@@ -1,7 +1,7 @@
 from textnode import *
 
 def main():
-    test = TextNode("This is the test", TextType.NORMAL, "https://www.google.com")
+    test = TextNode("This is the test", TextType.NORMAL.value, "https://www.google.com")
     print(test)
 
 
