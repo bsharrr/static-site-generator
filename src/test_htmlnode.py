@@ -1,5 +1,5 @@
 import unittest
-from htmlnode import HTMLNode, LeafNode
+from htmlnode import HTMLNode, LeafNode, ParentNode
 
 
 
@@ -30,3 +30,38 @@ class TestLeafNode(unittest.TestCase):
         self.assertEqual(str(context.exception), "All leaf nodes must have value")
 
     
+class TestParentNode(unittest.TestCase):
+
+    def test_to_html_empty_tag(self):
+        parent_node = ParentNode(tag=None, children=[
+        LeafNode("b", "Bold text"),
+        LeafNode(None, "Normal text"),
+        LeafNode("i", "italic text"),
+        LeafNode(None, "Normal text"),
+    ])
+        with self.assertRaises(ValueError) as context:
+            parent_node.to_html()
+        self.assertEqual(str(context.exception), "The parent node needs a tag")
+
+
+    def test_to_html_empty_children(self):
+        parent_node = ParentNode(tag="p", children=None)
+        with self.assertRaises(ValueError) as context:
+            parent_node.to_html()
+        self.assertEqual(str(context.exception), "The parent node must contain at least a child")
+
+    def test_to_html_one_child(self):
+        parent_node = ParentNode(tag="p", children=[
+        LeafNode("b", "Bold text"),
+    ])
+        
+        self.assertEqual("<p><b>Bold text</b></p>", parent_node.to_html())
+
+    def test_to_html_multiple_children(self):
+        parent_node = ParentNode(tag="p", children=[
+        LeafNode("b", "Bold text"),
+        LeafNode(None, "Normal text"),
+        LeafNode("i", "italic text"),
+        LeafNode(None, "Normal text"),
+        ])
+        self.assertEqual("<p><b>Bold text</b>Normal text<i>italic text</i>Normal text</p>", parent_node.to_html())
