@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0" version="28.0.6" pages="2">
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:140.0) Gecko/20100101 Firefox/140.0" version="28.0.6" pages="3">
   <diagram name="Page-1" id="Q1QJrNOryQXsulopfTCI">
     <mxGraphModel dx="1453" dy="1439" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="0" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -413,6 +413,97 @@
         <mxCell id="ZemQ5pDqFrgs59ksdUoc-26" value="&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Read/&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 12px;&quot;&gt;&lt;b&gt;Write&lt;/b&gt;&lt;/font&gt;&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="ZemQ5pDqFrgs59ksdUoc-19">
           <mxGeometry x="0.0537" y="-4" relative="1" as="geometry">
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="fVRLP5OLtXywF4BDQV2Q" name="Page-3">
+    <mxGraphModel dx="668" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="dNn2SM_l7ExgkAyQJFR5-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=light-dark(#808080, #ededed);dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="210" y="394.72413793103453" as="targetPoint" />
+            <mxPoint x="160" y="395" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="u-8kh45jCt9SdBpx9RXT-1" value="&lt;b&gt;&lt;span style=&quot;color: light-dark(rgb(255, 128, 0), rgb(237, 237, 237));&quot;&gt;In&lt;/span&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="100" y="380" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="u-8kh45jCt9SdBpx9RXT-2" value="&lt;b&gt;&lt;span style=&quot;color: light-dark(rgb(255, 128, 0), rgb(237, 237, 237));&quot;&gt;Out&lt;/span&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="680" y="380" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="dNn2SM_l7ExgkAyQJFR5-7" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;dashed=1;strokeColor=light-dark(#808080, #ededed);" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="370" as="sourcePoint" />
+            <mxPoint x="360" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="330" y="320" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dNn2SM_l7ExgkAyQJFR5-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="dNn2SM_l7ExgkAyQJFR5-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310.19047619047615" y="378.57142857142856" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dNn2SM_l7ExgkAyQJFR5-9" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;dashed=1;strokeColor=light-dark(#808080, #ededed);" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="310" y="420" as="sourcePoint" />
+            <mxPoint x="360" y="450" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="340" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dNn2SM_l7ExgkAyQJFR5-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=light-dark(#808080, #ededed);" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="360" y="395.2380952380952" as="targetPoint" />
+            <mxPoint x="320" y="395" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dNn2SM_l7ExgkAyQJFR5-1" value="&lt;b&gt;&lt;span style=&quot;color: light-dark(rgb(0, 128, 64), rgb(237, 237, 237));&quot;&gt;Orchestrator&lt;/span&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="220" y="378.75" width="90" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dNn2SM_l7ExgkAyQJFR5-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=light-dark(#808080, #ededed);" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="670" y="394" as="targetPoint" />
+            <mxPoint x="620" y="394" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dNn2SM_l7ExgkAyQJFR5-2" value="&lt;b style=&quot;color: light-dark(rgb(0, 128, 64), rgb(237, 237, 237));&quot;&gt;Synthesizer&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="520" y="377.5" width="90" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dNn2SM_l7ExgkAyQJFR5-3" value="&lt;b style=&quot;color: light-dark(rgb(0, 128, 64), rgb(237, 237, 237));&quot;&gt;Agent 2&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="369" y="380" width="90" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dNn2SM_l7ExgkAyQJFR5-15" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;dashed=1;strokeColor=light-dark(#808080, #ededed);" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="446" as="sourcePoint" />
+            <mxPoint x="520" y="420" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="510" y="446" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dNn2SM_l7ExgkAyQJFR5-4" value="&lt;b style=&quot;color: light-dark(rgb(0, 128, 64), rgb(237, 237, 237));&quot;&gt;Agent 3&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="369" y="430" width="90" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dNn2SM_l7ExgkAyQJFR5-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;curved=1;dashed=1;strokeColor=light-dark(#808080, #ededed);" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="470" y="340" as="sourcePoint" />
+            <mxPoint x="520" y="370" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="dNn2SM_l7ExgkAyQJFR5-5" value="&lt;b style=&quot;color: light-dark(rgb(0, 128, 64), rgb(237, 237, 237));&quot;&gt;Agent 1&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="369" y="330" width="90" height="32.5" as="geometry" />
+        </mxCell>
+        <mxCell id="dNn2SM_l7ExgkAyQJFR5-12" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;strokeColor=light-dark(#808080, #ededed);" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="510" y="394.8980952380952" as="targetPoint" />
+            <mxPoint x="470" y="394.66" as="sourcePoint" />
           </mxGeometry>
         </mxCell>
       </root>
